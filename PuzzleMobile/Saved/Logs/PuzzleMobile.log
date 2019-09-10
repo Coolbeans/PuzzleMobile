@@ -1,4 +1,4 @@
-﻿Log file open, 09/08/19 19:08:15
+﻿Log file open, 09/10/19 11:38:49
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: PuzzleMobile
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.117942
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.597731
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.331s to configure plugins.
+LogStreaming: Display: Took  0.078s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: Radeon (TM) RX 480 Graphics
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Epic/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -149,629 +149,846 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.018s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.09.09-02.08.18:619][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.09.09-02.08.18:619][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.09.09-02.08.18:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.09.09-02.08.18:620][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.09.09-02.08.18:642][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.09.09-02.08.18:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:643][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:725][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.09-02.08.18:725][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.09-02.08.18:726][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.09-02.08.18:735][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.09-02.08.18:738][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.09-02.08.18:803][  0]LogHAL: Display: Platform has ~ 16 GB [17130438656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.09.09-02.08.18:810][  0]LogInit: Going up to parent DeviceProfile []
-[2019.09.09-02.08.18:810][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.09-02.08.18:810][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.09-02.08.18:811][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.09.09-02.08.18:867][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.09.09-02.08.18:867][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
-[2019.09.09-02.08.18:910][  0]LogInit: Computer: DESKTOP-SEDIOMM
-[2019.09.09-02.08.18:910][  0]LogInit: User: Omega
-[2019.09.09-02.08.18:910][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.09.09-02.08.18:910][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.09.09-02.08.18:910][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.09.09-02.08.18:910][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.09-02.08.18:910][  0]LogMemory: Process Physical Memory: 111.09 MB used, 111.10 MB peak
-[2019.09.09-02.08.18:911][  0]LogMemory: Process Virtual Memory: 96.02 MB used, 96.02 MB peak
-[2019.09.09-02.08.18:911][  0]LogMemory: Physical Memory: 7463.66 MB used,  8873.20 MB free, 16336.86 MB total
-[2019.09.09-02.08.18:911][  0]LogMemory: Virtual Memory: 4692.94 MB used,  134213032.00 MB free, 134217728.00 MB total
-[2019.09.09-02.08.19:896][  0]LogInit: Using OS detected language (en-US).
-[2019.09.09-02.08.19:896][  0]LogInit: Using OS detected locale (en-CA).
-[2019.09.09-02.08.19:981][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.09-02.08.20:950][  0]LogStreaming: Display: Took  1.027s to InitEngineTextLocalization.
-[2019.09.09-02.08.20:956][  0]LogInit: Setting process to per monitor DPI aware
-[2019.09.09-02.08.21:868][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.09.09-02.08.21:868][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.09.09-02.08.25:187][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.09-02.08.25:261][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
-[2019.09.09-02.08.25:262][  0]LogD3D11RHI:       8172/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
-[2019.09.09-02.08.25:264][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.09-02.08.25:264][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.09-02.08.25:264][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.09-02.08.25:275][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.09-02.08.25:275][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2019.09.09-02.08.25:275][  0]LogWindows: EnumDisplayDevices:
-[2019.09.09-02.08.25:275][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
-[2019.09.09-02.08.25:275][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
-[2019.09.09-02.08.25:276][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
-[2019.09.09-02.08.25:276][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.09.09-02.08.25:276][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.09.09-02.08.25:277][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.09.09-02.08.25:277][  0]LogWindows:    6. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.09.09-02.08.25:277][  0]LogWindows:    7. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.09.09-02.08.25:278][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2019.09.09-02.08.25:278][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
-[2019.09.09-02.08.25:278][  0]LogD3D11RHI:   Driver Version: Adrenalin 2019 19.9.1 (internal:26.20.13001.50005, unified:26.20.13001.50005)
-[2019.09.09-02.08.25:278][  0]LogD3D11RHI:      Driver Date: 9-3-2019
-[2019.09.09-02.08.25:278][  0]LogRHI: Texture pool is 5720 MB (70% of 8172 MB)
-[2019.09.09-02.08.25:420][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.09-02.08.25:659][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.09.09-02.08.26:682][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.09.09-02.08.26:760][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.09.09-02.08.26:789][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.09.09-02.08.26:818][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.09.09-02.08.26:896][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.09.09-02.08.26:977][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.09.09-02.08.27:026][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.09.09-02.08.27:056][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.09.09-02.08.27:077][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.09-02.08.27:297][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.09.09-02.08.27:532][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.09.09-02.08.27:532][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.09.09-02.08.27:591][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.09.09-02.08.27:591][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.09.09-02.08.27:645][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.09.09-02.08.27:675][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.09.09-02.08.27:719][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.09.09-02.08.27:758][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.09.09-02.08.27:896][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.09.09-02.08.27:896][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.09.09-02.08.27:896][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.09-02.08.28:951][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Intermediate/Shaders/WorkingDirectory/10316/).
-[2019.09.09-02.08.28:952][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Omega/AppData/Local/Temp/UnrealShaderWorkingDir/5080D6894D20A2F6E2AC629FC1EEF0A8/'.
-[2019.09.09-02.08.28:971][  0]LogXGEController: Cleaning working directory: C:/Users/Omega/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.09.09-02.08.28:972][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.09.09-02.08.28:972][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.09.09-02.08.28:972][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.09-02.08.32:224][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: Loaded boot cache 0.33s 86MB C:/Users/Omega/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Omega/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.09-02.08.32:558][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.09-02.08.32:682][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.09-02.08.32:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.09-02.08.32:682][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.09.09-02.08.32:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Omega/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.09-02.08.32:695][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.09.09-02.08.32:695][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.09.09-02.08.32:766][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.09-02.08.32:876][  0]LogSlate: Using FreeType 2.6.0
-[2019.09.09-02.08.33:045][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.09-02.08.33:970][  0]LogAssetRegistry: FAssetRegistry took 0.0398 seconds to start up
-[2019.09.09-02.08.39:465][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.09-02.08.42:925][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.09.09-02.08.43:312][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.09.09-02.08.43:338][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.09.09-02.08.43:375][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.09-02.08.43:375][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.09.09-02.08.43:955][  0]LogNetVersion: PuzzleMobile 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2030113101)
-[2019.09.09-02.08.52:013][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.165486 seconds
-[2019.09.09-02.08.52:061][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.09.09-02.08.52:061][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.09.09-02.08.52:061][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.09-02.09.24:158][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.09-02.09.24:237][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.09-02.09.26:993][  0]SourceControl: Source control is disabled
-[2019.09.09-02.09.27:012][  0]SourceControl: Source control is disabled
-[2019.09.09-02.09.27:196][  0]SourceControl: Source control is disabled
-[2019.09.09-02.09.27:260][  0]SourceControl: Source control is disabled
-[2019.09.09-02.09.31:780][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.09-02.09.32:246][  0]LogOcInput: OculusInput pre-init called
-[2019.09.09-02.09.33:808][  0]LogEngine: Initializing Engine...
-[2019.09.09-02.09.33:937][  0]LogHMD: Oculus plugin initialized. Version: 4.21.2-4753647+++UE4+Release-4.21, OVRPlugin: 1.28.0
-[2019.09.09-02.09.33:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.09.09-02.09.33:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.09.09-02.09.33:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.09.09-02.09.33:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.09.09-02.09.34:385][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.09.09-02.09.35:643][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.09-02.09.36:217][  0]LogInit: XAudio2 using 'Headphones (MDR-XB950B1 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.09-02.09.36:234][  0]LogInit: FAudioDevice initialized.
-[2019.09.09-02.09.36:234][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.09.09-02.09.36:393][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Omega/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.09.09-02.09.36:446][  0]LogInit: Texture streaming: Enabled
-[2019.09.09-02.09.36:833][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.09-02.09.37:072][  0]LogInit: Transaction tracking system initialized
-[2019.09.09-02.09.37:693][  0]BlueprintLog: New page: Editor Load
-[2019.09.09-02.09.39:708][  0]LocalizationService: Localization service is disabled
-[2019.09.09-02.09.42:366][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/PuzzleMobile/PuzzleMobile/Content/' took 0.02s
-[2019.09.09-02.09.42:366][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.09-02.09.42:366][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.09-02.09.42:366][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.09.09-02.09.42:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.09.09-02.09.42:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.09.09-02.09.42:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.09.09-02.09.42:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.09.09-02.09.44:712][  0]SourceControl: Source control is disabled
-[2019.09.09-02.09.44:795][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.09-02.09.44:795][  0]LogEditorServer: Warning: Can't find file '../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.09.09-02.09.44:795][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.09-02.09.44:820][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 25.269ms to complete.
-[2019.09.09-02.09.44:821][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.092
-[2019.09.09-02.09.48:667][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.09-02.09.48:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.09-02.09.48:706][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.09-02.09.48:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.09-02.09.48:846][  0]LogCollectionManager: Loaded 0 collections in 0.001165 seconds
-[2019.09.09-02.09.48:942][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Collections/' took 0.01s
-[2019.09.09-02.09.48:942][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/PuzzleMobile/PuzzleMobile/Content/Developers/Omega/Collections/' took 0.01s
-[2019.09.09-02.09.48:942][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/PuzzleMobile/PuzzleMobile/Content/Collections/' took 0.01s
-[2019.09.09-02.09.48:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.09.09-02.09.48:952][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2651 classes and 620 folders.
-[2019.09.09-02.09.49:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.09.09-02.09.49:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:204][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:211][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:217][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:224][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:231][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:238][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:293][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:357][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:363][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.49:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.09-02.09.50:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.09.09-02.09.50:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.09.09-02.09.51:726][  0]LogSlate: Took 0.030876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.09-02.09.51:791][  0]LogSlate: Took 0.062880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.09-02.09.51:950][  0]LogSlate: Took 0.041638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.09-02.09.52:548][  0]LogRenderer: Reallocating scene render targets to support 1616x836 Format 10 NumSamples 1 (Frame:1).
-[2019.09.09-02.09.53:455][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.09.09-02.09.53:455][  0]LogLoad: (Engine Initialization) Total time: 112.79 seconds
-[2019.09.09-02.09.53:455][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.09-02.09.53:503][  0]LogOcInput: OculusInput is initialized
-[2019.09.09-02.09.53:673][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.09-02.09.53:889][  1]LogAssetRegistry: Asset discovery search completed in 79.9410 seconds
-[2019.09.09-02.09.53:891][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.09.09-02.09.53:891][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
-[2019.09.09-02.09.54:906][  4]LogSlate: Took 0.049630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.09-02.09.56:529][  9]LogDirectoryWatcher: A directory notification failed for 'D:/GitHub/PuzzleMobile/PuzzleMobile/Content/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.09-02.09.56:529][  9]LogDirectoryWatcher: A directory notification failed for 'D:/GitHub/PuzzleMobile/PuzzleMobile/Content/Developers/Omega/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.09-02.09.56:529][  9]LogDirectoryWatcher: A directory notification failed for 'D:/GitHub/PuzzleMobile/PuzzleMobile/Saved/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.09-02.10.04:622][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.09-02.10.15:776][213]LogSlate: Window 'Message Log' being destroyed
-[2019.09.09-02.10.15:780][213]LogSlate: Window 'Message Log' being destroyed
-[2019.09.09-02.10.25:826][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2019.09.09-02.10.27:893][382]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: exclamation (AutoDXT, 512X512)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_ML_Aluminum01 (AutoDXT, 512X512)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT, 512X512)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_UE4_Mannequin_Mobile_N (BC5, 1024X1024)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_UE4_Mannequin_Mobile_M (AutoDXT, 1024X1024)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: pause (AutoDXT, 880X920)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
-[2019.09.09-02.10.27:894][382]LogTexture: Display: Building textures: swap (AutoDXT, 256X256)
-[2019.09.09-02.10.27:934][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/MontageExample_End_1.MontageExample_End_1
-[2019.09.09-02.10.27:940][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/MontageExample_End_1.MontageExample_End_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.27:954][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/MontageExample_End_2.MontageExample_End_2
-[2019.09.09-02.10.27:955][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/MontageExample_End_2.MontageExample_End_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:058][382]LogTexture: Display: Building textures: T_BasicGrid_N (BC5, 1024X1024)
-[2019.09.09-02.10.28:058][382]LogTexture: Display: Building textures: T_BasicGrid_M (BGRA8, 512X512)
-[2019.09.09-02.10.28:058][382]LogTexture: Display: Building textures: T_BasicGridW_M (BGRA8, 512X512)
-[2019.09.09-02.10.28:058][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/MontageExample_Punch_2.MontageExample_Punch_2
-[2019.09.09-02.10.28:058][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/MontageExample_Punch_2.MontageExample_Punch_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:059][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/MontageExample_Punch_1.MontageExample_Punch_1
-[2019.09.09-02.10.28:059][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/MontageExample_Punch_1.MontageExample_Punch_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:064][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
-[2019.09.09-02.10.28:064][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:069][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
-[2019.09.09-02.10.28:069][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop) using current/default (AnimCompress_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:090][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/MontageExample_Start.MontageExample_Start
-[2019.09.09-02.10.28:091][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/MontageExample_Start.MontageExample_Start) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:166][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2019.09.09-02.10.28:316][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 128
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 118
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 108
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 98
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 88
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 78
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 68
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 58
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 48
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 38
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 28
-[2019.09.09-02.10.28:373][382]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.09.09-02.10.28:419][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
-[2019.09.09-02.10.28:419][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:434][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk
-[2019.09.09-02.10.28:434][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:461][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle
-[2019.09.09-02.10.28:461][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle) using current/default (AnimCompress_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:519][382]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
-[2019.09.09-02.10.28:519][382]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.09.09-02.10.28:531][382]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
-[2019.09.09-02.10.28:563][382]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2019.09.09-02.10.28:779][382]LogMaterial: Display: Missing cached shader map for material M_SuperGrid_SingleColor, compiling. 
-[2019.09.09-02.10.28:893][382]LogStaticMesh: Building static mesh SuperGrid_Ramp...
-[2019.09.09-02.10.28:971][382]LogStaticMesh: Built static mesh [0.08s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Ramp.SuperGrid_Ramp
-[2019.09.09-02.10.29:121][382]LogStaticMesh: Building static mesh SuperGrid_Plane...
-[2019.09.09-02.10.29:122][382]LogStaticMesh: Built static mesh [0.00s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Plane.SuperGrid_Plane
-[2019.09.09-02.10.29:123][382]LogStaticMesh: Building static mesh SuperGrid_Hexagon...
-[2019.09.09-02.10.29:128][382]LogStaticMesh: Built static mesh [0.01s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Hexagon.SuperGrid_Hexagon
-[2019.09.09-02.10.29:133][382]LogStaticMesh: Building static mesh SuperGrid_CornerOuter...
-[2019.09.09-02.10.29:138][382]LogStaticMesh: Built static mesh [0.01s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CornerOuter.SuperGrid_CornerOuter
-[2019.09.09-02.10.29:142][382]LogStaticMesh: Building static mesh SuperGrid_Box...
-[2019.09.09-02.10.29:144][382]LogStaticMesh: Built static mesh [0.00s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Box.SuperGrid_Box
-[2019.09.09-02.10.29:146][382]LogStaticMesh: Building static mesh SuperGrid_Arch1...
-[2019.09.09-02.10.29:150][382]LogStaticMesh: Built static mesh [0.00s] /Game/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Arch1.SuperGrid_Arch1
-[2019.09.09-02.10.29:183][382]LogMaterial: Display: Missing cached shader map for material CubeMaterial, compiling. 
-[2019.09.09-02.10.29:323][382]LogAIModule: Creating AISystem for world Level01
-[2019.09.09-02.10.29:717][382]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level01.Level01
-[2019.09.09-02.10.30:082][382]Cmd: MAP LOAD FILE="../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.09-02.10.30:083][382]LightingResults: New page: Lighting Build
-[2019.09.09-02.10.30:121][382]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
-[2019.09.09-02.10.30:141][382]LoadErrors: New page: Loading map: Level01.umap
-[2019.09.09-02.10.30:220][382]MapCheck: New page: Map Check
-[2019.09.09-02.10.30:220][382]LightingResults: New page: Lighting Build
-[2019.09.09-02.10.31:115][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.09-02.10.31:331][382]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.09-02.10.31:332][382]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.539ms to complete.
-[2019.09.09-02.10.31:332][382]LogFileHelpers: Loading map 'Level01' took 1.275
-[2019.09.09-02.10.34:316][528]LogShaderCompilers: Display: Shaders left to compile 228
-[2019.09.09-02.10.34:477][538]LogShaderCompilers: Display: Shaders left to compile 218
-[2019.09.09-02.10.34:499][539]LogShaderCompilers: Display: Shaders left to compile 208
-[2019.09.09-02.10.34:755][552]LogShaderCompilers: Display: Shaders left to compile 198
-[2019.09.09-02.10.34:853][558]LogShaderCompilers: Display: Shaders left to compile 188
-[2019.09.09-02.10.34:908][561]LogShaderCompilers: Display: Shaders left to compile 178
-[2019.09.09-02.10.34:993][566]LogShaderCompilers: Display: Shaders left to compile 168
-[2019.09.09-02.10.35:899][619]LogShaderCompilers: Display: Shaders left to compile 158
-[2019.09.09-02.10.36:228][638]LogShaderCompilers: Display: Shaders left to compile 148
-[2019.09.09-02.10.36:398][648]LogShaderCompilers: Display: Shaders left to compile 138
-[2019.09.09-02.10.36:599][659]LogShaderCompilers: Display: Shaders left to compile 128
-[2019.09.09-02.10.36:614][660]LogShaderCompilers: Display: Shaders left to compile 118
-[2019.09.09-02.10.37:138][692]LogShaderCompilers: Display: Shaders left to compile 108
-[2019.09.09-02.10.37:450][704]LogShaderCompilers: Display: Shaders left to compile 98
-[2019.09.09-02.10.37:680][712]LogShaderCompilers: Display: Shaders left to compile 88
-[2019.09.09-02.10.37:788][717]LogShaderCompilers: Display: Shaders left to compile 78
-[2019.09.09-02.10.38:161][737]LogShaderCompilers: Display: Shaders left to compile 68
-[2019.09.09-02.10.38:422][747]LogShaderCompilers: Display: Shaders left to compile 58
-[2019.09.09-02.10.38:777][769]LogShaderCompilers: Display: Shaders left to compile 48
-[2019.09.09-02.10.39:093][787]LogShaderCompilers: Display: Shaders left to compile 38
-[2019.09.09-02.10.39:160][791]LogShaderCompilers: Display: Shaders left to compile 28
-[2019.09.09-02.10.39:453][809]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.09.09-02.10.39:798][828]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.09.09-02.10.43:780][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.09-02.10.43:888][ 90]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2019.09.09-02.13.11:749][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.09-02.13.18:072][793]LogActorFactory: Actor Factory created 1M_Cube
-[2019.09.09-02.13.18:844][854]LogActorFactory: Actor Factory created 1M_Cube
-[2019.09.09-02.13.26:049][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.09-02.13.26:490][527]LogSavePackage: Moving '../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01423D6B8A4F716E63F235BAAD4E7A9360.tmp' to '../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01.umap'
-[2019.09.09-02.13.26:577][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level01_BuiltData" FILE="../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01_BuiltData.uasset" SILENT=true
-[2019.09.09-02.13.26:714][527]LogSavePackage: Moving '../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData2758C292490C0BE1786AE9A9A26520DE.tmp' to '../../../../../../GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01_BuiltData.uasset'
+[2019.09.10-18.38.49:819][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.10-18.38.49:819][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.09.10-18.38.49:820][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:821][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.10-18.38.49:821][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:821][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.10-18.38.49:826][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.10-18.38.49:827][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.10-18.38.49:827][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.10-18.38.49:827][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.10-18.38.49:841][  0]LogHAL: Display: Platform has ~ 16 GB [16981430272 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.09.10-18.38.49:841][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.10-18.38.49:841][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.10-18.38.49:841][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.10-18.38.49:842][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.10-18.38.49:845][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.10-18.38.49:845][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.09.10-18.38.49:846][  0]LogInit: Computer: DESKTOP-F3SMPMM
+[2019.09.10-18.38.49:846][  0]LogInit: User: jsaem
+[2019.09.10-18.38.49:846][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.09.10-18.38.49:846][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.10-18.38.49:846][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.09.10-18.38.49:846][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.10-18.38.49:846][  0]LogMemory: Process Physical Memory: 105.38 MB used, 105.39 MB peak
+[2019.09.10-18.38.49:846][  0]LogMemory: Process Virtual Memory: 92.80 MB used, 92.80 MB peak
+[2019.09.10-18.38.49:846][  0]LogMemory: Physical Memory: 7987.41 MB used,  8207.35 MB free, 16194.75 MB total
+[2019.09.10-18.38.49:846][  0]LogMemory: Virtual Memory: 4668.70 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.09.10-18.38.49:970][  0]LogInit: Using OS detected language (en-US).
+[2019.09.10-18.38.49:970][  0]LogInit: Using OS detected locale (en-CA).
+[2019.09.10-18.38.49:971][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.10-18.38.50:362][  0]LogStreaming: Display: Took  0.392s to InitEngineTextLocalization.
+[2019.09.10-18.38.50:362][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.10-18.38.50:429][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.10-18.38.50:429][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.10-18.38.52:057][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.10-18.38.52:057][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.10-18.38.52:101][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.09.10-18.38.52:101][  0]LogD3D11RHI:       6052/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.10-18.38.52:155][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.09.10-18.38.52:155][  0]LogD3D11RHI:       128/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.10-18.38.52:157][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.10-18.38.52:157][  0]LogD3D11RHI:       0/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.10-18.38.52:157][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.10-18.38.52:165][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.10-18.38.52:165][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.10-18.38.52:165][  0]LogWindows: EnumDisplayDevices:
+[2019.09.10-18.38.52:165][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.09.10-18.38.52:165][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.09.10-18.38.52:166][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.09.10-18.38.52:166][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.09.10-18.38.52:166][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.10-18.38.52:167][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.10-18.38.52:167][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.10-18.38.52:167][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.09.10-18.38.52:167][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.09.10-18.38.52:167][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2019.09.10-18.38.52:167][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2019.09.10-18.38.52:167][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.09.10-18.38.52:194][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.10-18.38.52:223][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.09.10-18.38.52:604][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.10-18.38.52:614][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.10-18.38.52:625][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.10-18.38.52:635][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.10-18.38.52:650][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.10-18.38.52:661][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.10-18.38.52:672][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.10-18.38.52:683][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.10-18.38.52:688][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.10-18.38.52:756][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.10-18.38.52:817][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.10-18.38.52:817][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.10-18.38.52:835][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.10-18.38.52:835][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.10-18.38.52:845][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.10-18.38.52:855][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.10-18.38.52:866][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.10-18.38.52:880][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.10-18.38.52:918][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.10-18.38.52:918][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.10-18.38.52:918][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.10-18.38.53:000][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Intermediate/Shaders/WorkingDirectory/11844/).
+[2019.09.10-18.38.53:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jsaem/AppData/Local/Temp/UnrealShaderWorkingDir/FE08FEC8467A939335BF768FA6A4D78C/'.
+[2019.09.10-18.38.53:002][  0]LogXGEController: Cleaning working directory: C:/Users/jsaem/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.09.10-18.38.53:002][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.10-18.38.53:002][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.10-18.38.53:002][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.10-18.38.54:820][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: Loaded boot cache 0.25s 71MB C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.10-18.38.55:072][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.10-18.38.55:090][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.10-18.38.55:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.10-18.38.55:090][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.10-18.38.55:102][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsaem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.10-18.38.55:102][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.10-18.38.55:102][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.10-18.38.55:157][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.10-18.38.55:160][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.10-18.38.55:173][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.10-18.38.55:378][  0]LogAssetRegistry: FAssetRegistry took 0.0318 seconds to start up
+[2019.09.10-18.38.55:642][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.10-18.38.55:849][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.10-18.38.55:856][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.10-18.38.55:856][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.10-18.38.55:857][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.10-18.38.55:857][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.10-18.38.55:888][  0]LogNetVersion: PuzzleMobile 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2030113101)
+[2019.09.10-18.38.56:778][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.072508 seconds
+[2019.09.10-18.38.56:783][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.09.10-18.38.56:783][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.09.10-18.38.56:783][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.10-18.39.04:033][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.10-18.39.04:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.10-18.39.04:680][  0]SourceControl: Source control is disabled
+[2019.09.10-18.39.04:680][  0]SourceControl: Source control is disabled
+[2019.09.10-18.39.04:684][  0]SourceControl: Source control is disabled
+[2019.09.10-18.39.04:685][  0]SourceControl: Source control is disabled
+[2019.09.10-18.39.04:891][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.10-18.39.04:979][  0]LogOcInput: OculusInput pre-init called
+[2019.09.10-18.39.05:142][  0]LogEngine: Initializing Engine...
+[2019.09.10-18.39.05:142][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.10-18.39.05:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.10-18.39.05:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.10-18.39.05:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.10-18.39.05:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.10-18.39.05:487][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.10-18.39.05:506][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.10-18.39.05:526][  0]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-18.39.05:547][  0]LogInit: FAudioDevice initialized.
+[2019.09.10-18.39.05:547][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.10-18.39.05:675][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.09.10-18.39.05:684][  0]LogInit: Texture streaming: Enabled
+[2019.09.10-18.39.05:701][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.10-18.39.05:768][  0]LogInit: Transaction tracking system initialized
+[2019.09.10-18.39.05:806][  0]BlueprintLog: New page: Editor Load
+[2019.09.10-18.39.05:909][  0]LocalizationService: Localization service is disabled
+[2019.09.10-18.39.06:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/' took 0.02s
+[2019.09.10-18.39.06:502][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.10-18.39.06:502][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.10-18.39.06:502][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.10-18.39.06:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.10-18.39.06:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.10-18.39.06:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.10-18.39.06:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.10-18.39.06:718][  0]SourceControl: Source control is disabled
+[2019.09.10-18.39.06:719][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.10-18.39.06:719][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.09.10-18.39.06:719][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.10-18.39.06:719][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.262ms to complete.
+[2019.09.10-18.39.06:719][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.001
+[2019.09.10-18.39.06:844][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-18.39.06:852][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-18.39.06:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-18.39.06:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-18.39.06:886][  0]LogCollectionManager: Loaded 0 collections in 0.001329 seconds
+[2019.09.10-18.39.06:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Collections/' took 0.01s
+[2019.09.10-18.39.06:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/Developers/jsaem/Collections/' took 0.01s
+[2019.09.10-18.39.06:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/Collections/' took 0.00s
+[2019.09.10-18.39.06:917][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.10-18.39.06:925][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2651 classes and 620 folders.
+[2019.09.10-18.39.06:932][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.09.10-18.39.06:959][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:975][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:979][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.06:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:013][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:039][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-18.39.07:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.09.10-18.39.07:316][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.09.10-18.39.07:410][  0]LogSlate: Took 0.003937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.10-18.39.07:416][  0]LogSlate: Took 0.004922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.10-18.39.07:424][  0]LogSlate: Took 0.003681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.10-18.39.07:527][  0]LogRenderer: Reallocating scene render targets to support 1288x620 Format 10 NumSamples 1 (Frame:1).
+[2019.09.10-18.39.07:669][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.10-18.39.07:670][  0]LogLoad: (Engine Initialization) Total time: 21.59 seconds
+[2019.09.10-18.39.07:670][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.10-18.39.07:705][  0]LogAssetRegistry: Asset discovery search completed in 12.3489 seconds
+[2019.09.10-18.39.07:707][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.10-18.39.07:707][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2019.09.10-18.39.07:709][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.10-18.39.07:783][  0]LogSlate: Took 0.012301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.10-18.39.21:200][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.39.21:352][228]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.10-18.39.22:713][228]LogAIModule: Creating AISystem for world Level01
+[2019.09.10-18.39.22:733][228]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level01.Level01
+[2019.09.10-18.39.22:761][228]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.10-18.39.22:761][228]LightingResults: New page: Lighting Build
+[2019.09.10-18.39.22:764][228]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2019.09.10-18.39.22:764][228]LoadErrors: New page: Loading map: Level01.umap
+[2019.09.10-18.39.22:765][228]MapCheck: New page: Map Check
+[2019.09.10-18.39.22:765][228]LightingResults: New page: Lighting Build
+[2019.09.10-18.39.22:849][228]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.10-18.39.22:895][228]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.10-18.39.22:895][228]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2019.09.10-18.39.22:895][228]LogFileHelpers: Loading map 'Level01' took 0.135
+[2019.09.10-18.39.26:769][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.40.29:768][158]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jsaem\Pictures\Analog Games\kappa.png)
+[2019.09.10-18.40.29:787][158]LogTexture: Display: Building textures: kappa (AutoDXT, 1024X1024)
+[2019.09.10-18.40.33:346][290]LogSlate: Window 'Save Content' being destroyed
+[2019.09.10-18.40.33:453][290]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/kappa4FC33DBA458DFD9DDD006F979299C548.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/kappa.uasset'
+[2019.09.10-18.40.37:490][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.40.41:560][252]LogActorFactory: Actor Factory created Cube
+[2019.09.10-18.40.42:713][388]LogActorFactory: Actor Factory created Cube
+[2019.09.10-18.40.45:359][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.41.04:335][932]LogAssetEditorManager: Opening Asset editor for Material /Game/ThirdPersonBP/Blueprints/UI/Kappachino.Kappachino
+[2019.09.10-18.41.04:368][932]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.05:224][932]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.05:236][932]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.05:290][932]LogSlate: Took 0.003776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.10-18.41.07:100][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.07:133][105]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.07:146][107]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.07:146][107]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.07:146][107]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.07:171][110]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.07:171][110]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.07:171][110]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.07:248][119]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.07:375][134]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.07:434][141]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.07:540][154]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.07:566][157]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.07:820][187]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.09.10-18.41.07:820][187]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 177 instructions
+[2019.09.10-18.41.07:820][187]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.09.10-18.41.07:820][187]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.10-18.41.43:675][348]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.43:687][348]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.43:687][348]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.10-18.41.44:056][387]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.44:087][391]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.44:103][393]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.44:103][393]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.44:120][395]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.44:120][395]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.44:137][397]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.44:137][397]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.44:203][405]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.44:324][419]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.44:381][425]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.44:509][440]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.44:523][441]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.44:766][470]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.09.10-18.41.44:766][470]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 177 instructions
+[2019.09.10-18.41.44:766][470]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.09.10-18.41.44:766][470]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.10-18.41.46:976][619]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.46:986][619]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.47:010][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.10-18.41.47:039][619]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.47:167][632]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.09.10-18.41.47:184][634]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.09.10-18.41.47:191][635]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.47:198][636]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.47:198][636]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.47:198][636]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.47:198][636]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.47:233][640]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.47:391][655]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.47:410][657]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.47:417][658]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.47:418][658]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.47:418][658]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.47:450][662]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.47:450][662]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.47:468][664]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.47:534][672]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.47:543][673]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.47:570][676]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.47:663][686]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.47:786][701]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.47:822][705]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.47:847][708]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.48:115][740]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.09.10-18.41.48:115][740]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 177 instructions
+[2019.09.10-18.41.48:115][740]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.09.10-18.41.48:115][740]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.10-18.41.50:094][977]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.50:114][977]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.50:129][977]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.50:349][  0]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.50:366][  2]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.50:373][  3]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.50:373][  3]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.50:373][  3]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.50:397][  6]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.50:397][  6]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.50:397][  6]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.50:506][ 19]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.50:935][ 70]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.50:935][ 70]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.50:969][ 74]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.50:969][ 74]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.50:969][ 74]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.50:969][ 74]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.51:886][182]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.51:899][182]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.51:899][182]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.10-18.41.52:097][200]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.52:113][202]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.52:119][203]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.52:119][203]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.52:119][203]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.52:144][206]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.52:144][206]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.52:144][206]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.52:257][219]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.52:376][233]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.52:409][237]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.52:519][250]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.52:543][253]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.52:575][257]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.52:585][258]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: Base pass shader: 106 instructions
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: Texture samplers: 4/16
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.09.10-18.41.52:853][290]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.10-18.41.55:770][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.41.55:823][645]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.55:836][646]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.56:034][669]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.10-18.41.56:041][670]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.56:050][671]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.41.56:059][672]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.10-18.41.56:059][672]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.10-18.41.56:059][672]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.10-18.41.56:083][675]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.10-18.41.56:083][675]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.10-18.41.56:175][686]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.10-18.41.56:295][700]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.10-18.41.56:320][703]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.10-18.41.56:453][719]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.56:478][722]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: Base pass shader: 106 instructions
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: Texture samplers: 4/16
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.09.10-18.41.56:730][752]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.10-18.41.58:759][995]LogMaterialEditor: Applying material Kappachino
+[2019.09.10-18.41.59:041][995]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.10-18.41.59:078][995]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.10-18.41.59:088][995]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.59:114][995]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.41.59:219][995]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Kappachino, compiling. 
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.09.10-18.41.59:818][995]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.09.10-18.41.59:819][995]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.10-18.41.59:819][995]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.41.59:819][995]TextureStreamingBuild: Display: Compiling optional shaders took 0.667 seconds.
+[2019.09.10-18.42.00:576][ 79]LogMaterialEditor: Saving and Compiling material Kappachino
+[2019.09.10-18.42.01:558][ 79]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Kappachino09517F794ACBDA9FEB6315979C47EED4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Kappachino.uasset'
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: Base pass shader: 106 instructions
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: Texture samplers: 4/16
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.09.10-18.42.01:570][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.10-18.42.07:613][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.09.10-18.42.08:275][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.10-18.42.28:469][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-18.42.28:686][241]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level019B573654448F597A0C7DACBE401AE0C1.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01.umap'
+[2019.09.10-18.42.28:851][241]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData7544DFB343E69AB96E41FB9742F5D0EB.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01_BuiltData.uasset'
+[2019.09.10-18.42.31:257][525]MapCheck: New page: Map Check
+[2019.09.10-18.42.31:267][525]LightingResults: New page: Lighting Build - Sep 10, 2019, 4:42:31 AM
+[2019.09.10-18.42.31:313][525]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.09.10-18.42.31:428][525]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.09.10-18.42.31:437][525]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.09.10-18.42.31:945][525]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.09.10-18.42.31:945][525]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11844
+[2019.09.10-18.42.34:683][525]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.09.10-18.42.34:683][525]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.09.10-18.42.34:684][525]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.09.10-18.42.34:684][525]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.09.10-18.42.34:684][525]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.09.10-18.42.34:894][525]LogEditorBuildUtils: Build time 0:03
+[2019.09.10-18.42.34:952][526]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Kappachino, compiling. 
+[2019.09.10-18.42.34:967][526]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.42.34:967][526]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Kappachino, compiling. 
+[2019.09.10-18.42.34:973][526]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.10-18.42.39:949][872]Job is a success!
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:      BrickData 250x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:      Bricks at Level
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:          0: 2.0% covering 100.0% of volume
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:          1: 8.0% covering 6.3% of volume
+[2019.09.10-18.42.39:998][873]LogVolumetricLightmapImport:          2: 90.0% covering 1.1% of volume
+[2019.09.10-18.42.40:028][873]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/UI/Kappachino.Kappachino needed to have new flag set bUsedWithStaticLighting !
+[2019.09.10-18.42.40:037][873]LogMaterial: Warning: Material /Engine/Transient.Kappachino needed to have new flag set bUsedWithStaticLighting !
+[2019.09.10-18.42.40:044][873]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.42.40:072][873]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.10-18.42.40:072][873]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.09.10-18.42.40:072][873]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.09.10-18.42.40:073][873]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.09.10-18.42.40:073][873]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.09.10-18.42.40:073][873]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.09.10-18.42.40:073][873]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.09.10-18.42.40:073][873]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.09.10-18.42.40:073][873]LogMaterial: Display: Missing cached shader map for material Kappachino, compiling. 
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2019.09.10-18.42.40:416][873]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.09.10-18.42.40:416][873]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.09.10-18.42.40:420][873]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.09.10-18.42.40:616][873]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.09.10-18.42.40:616][873]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.09.10-18.42.40:697][873]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2019.09.10-18.42.40:697][873]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.10-18.42.40:697][873]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.09.10-18.42.40:721][873]Lightmass on DESKTOP-F3SMPMM: 3.48 sec total, 210 ms importing, 17 ms setup, 990 ms photons, 2.24 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 24.2 sec total, 3.26 sec processing.
+[2019.09.10-18.42.40:721][873]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.09.10-18.42.40:749][873]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.09.10-18.42.40:749][873]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.09.10-18.42.40:757][873]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.09.10-18.42.40:757][873]LogStaticLightingSystem: Illumination: 9.47 sec (328 ms encoding lightmaps, 274 ms encoding shadowmaps)
+[2019.09.10-18.42.40:757][873]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.09.10-18.42.40:757][873]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.10-18.42.41:528][873]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.10-18.42.41:528][873]DumpUnbuiltLightIteractions
+[2019.09.10-18.42.41:528][873]Lights with unbuilt interactions: 0
+[2019.09.10-18.42.41:528][873]
+[2019.09.10-18.42.41:528][873]Primitives with unbuilt interactions: 0
+[2019.09.10-18.42.43:499][874]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.09.10-18.42.43:499][874]MapCheck: New page: Level01 - Sep 10, 2019, 4:42:43 AM
+[2019.09.10-18.42.43:510][874]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.048ms to complete.
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Base pass shader: 106 instructions
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Base pass shader with Surface Lightmap: 124 instructions
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Texture samplers: 4/16
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.09.10-18.42.43:511][874]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.10-18.42.46:508][217]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0146A1C9674A769690B4BF8B8008AC4BA1.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01.umap'
+[2019.09.10-18.42.46:610][217]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData7F7ECBE649AC3D3808CA18BEC16B7A76.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/Level01_BuiltData.uasset'
+[2019.09.10-18.42.48:109][395]LogMaterialEditor: Saving and Compiling material Kappachino
+[2019.09.10-18.42.48:130][395]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Kappachino9C6A73C64DC3C477D846EEA100626B29.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Kappachino.uasset'
