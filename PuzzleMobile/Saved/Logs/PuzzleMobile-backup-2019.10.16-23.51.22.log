@@ -1,0 +1,1749 @@
+﻿Log file open, 10/16/19 14:29:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PuzzleMobile
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.620389
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.094s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.16-21.29.13:149][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.16-21.29.13:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:151][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.16-21.29.13:157][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:157][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.16-21.29.13:158][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.16-21.29.13:158][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.16-21.29.13:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.16-21.29.13:177][  0]LogHAL: Display: Platform has ~ 16 GB [16981430272 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.10.16-21.29.13:177][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.16-21.29.13:177][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.16-21.29.13:177][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Scalability.ini]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.16-21.29.13:178][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.16-21.29.13:182][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.16-21.29.13:182][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Config/Windows/Engine.ini]
+[2019.10.16-21.29.13:183][  0]LogInit: Computer: DESKTOP-F3SMPMM
+[2019.10.16-21.29.13:183][  0]LogInit: User: jsaem
+[2019.10.16-21.29.13:183][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.16-21.29.13:183][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.16-21.29.13:183][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.10.16-21.29.13:183][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.16-21.29.13:183][  0]LogMemory: Process Physical Memory: 105.30 MB used, 105.30 MB peak
+[2019.10.16-21.29.13:183][  0]LogMemory: Process Virtual Memory: 92.79 MB used, 92.79 MB peak
+[2019.10.16-21.29.13:183][  0]LogMemory: Physical Memory: 5803.70 MB used,  10391.05 MB free, 16194.75 MB total
+[2019.10.16-21.29.13:183][  0]LogMemory: Virtual Memory: 4668.73 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.10.16-21.29.13:359][  0]LogInit: Using OS detected language (en-US).
+[2019.10.16-21.29.13:359][  0]LogInit: Using OS detected locale (en-CA).
+[2019.10.16-21.29.13:360][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.16-21.29.13:820][  0]LogStreaming: Display: Took  0.462s to InitEngineTextLocalization.
+[2019.10.16-21.29.13:820][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.16-21.29.13:908][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.16-21.29.13:908][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.16-21.29.15:734][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.16-21.29.15:734][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.16-21.29.15:772][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.10.16-21.29.15:772][  0]LogD3D11RHI:       6052/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.16-21.29.15:822][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.10.16-21.29.15:822][  0]LogD3D11RHI:       128/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.16-21.29.15:824][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.16-21.29.15:824][  0]LogD3D11RHI:       0/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.16-21.29.15:824][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.16-21.29.15:830][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.16-21.29.15:830][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.16-21.29.15:830][  0]LogWindows: EnumDisplayDevices:
+[2019.10.16-21.29.15:830][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.10.16-21.29.15:831][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.10.16-21.29.15:831][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.10.16-21.29.15:831][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.10.16-21.29.15:831][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.16-21.29.15:831][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.16-21.29.15:832][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.16-21.29.15:832][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.16-21.29.15:832][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.10.16-21.29.15:832][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2019.10.16-21.29.15:832][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2019.10.16-21.29.15:832][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.16-21.29.15:858][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.16-21.29.15:878][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.16-21.29.16:259][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.10.16-21.29.16:270][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.10.16-21.29.16:281][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.10.16-21.29.16:291][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.10.16-21.29.16:306][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.10.16-21.29.16:316][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.16-21.29.16:328][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.16-21.29.16:339][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.16-21.29.16:345][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.16-21.29.16:412][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.10.16-21.29.16:476][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.16-21.29.16:476][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.16-21.29.16:494][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.16-21.29.16:494][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.16-21.29.16:505][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.10.16-21.29.16:515][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.10.16-21.29.16:525][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.10.16-21.29.16:544][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.10.16-21.29.16:582][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.16-21.29.16:582][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.10.16-21.29.16:582][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.16-21.29.16:689][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Intermediate/Shaders/WorkingDirectory/11316/).
+[2019.10.16-21.29.16:690][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jsaem/AppData/Local/Temp/UnrealShaderWorkingDir/E8BD9FC84023B42E69C2A2BEDCDA6CC5/'.
+[2019.10.16-21.29.16:692][  0]LogXGEController: Cleaning working directory: C:/Users/jsaem/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.16-21.29.16:692][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.16-21.29.16:692][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.16-21.29.16:692][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.16-21.29.18:010][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.16-21.29.18:362][  0]LogDerivedDataCache: Loaded boot cache 0.35s 71MB C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.16-21.29.18:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.10.16-21.29.18:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.16-21.29.18:363][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.16-21.29.18:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.16-21.29.18:363][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.16-21.29.18:529][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.16-21.29.18:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.16-21.29.18:529][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.16-21.29.18:541][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsaem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.16-21.29.18:541][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.16-21.29.18:541][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.16-21.29.18:559][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.16-21.29.18:563][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.16-21.29.18:593][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.16-21.29.19:202][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
+[2019.10.16-21.29.19:490][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.16-21.29.19:726][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.10.16-21.29.19:735][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.10.16-21.29.19:736][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.16-21.29.19:736][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.16-21.29.19:736][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.10.16-21.29.19:778][  0]LogNetVersion: PuzzleMobile 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2030113101)
+[2019.10.16-21.29.20:774][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.091760 seconds
+[2019.10.16-21.29.20:778][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.10.16-21.29.20:778][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.10.16-21.29.20:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.16-21.29.26:283][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.16-21.29.26:297][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.16-21.29.26:948][  0]SourceControl: Source control is disabled
+[2019.10.16-21.29.26:948][  0]SourceControl: Source control is disabled
+[2019.10.16-21.29.26:952][  0]SourceControl: Source control is disabled
+[2019.10.16-21.29.26:954][  0]SourceControl: Source control is disabled
+[2019.10.16-21.29.27:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.16-21.29.27:344][  0]LogOcInput: OculusInput pre-init called
+[2019.10.16-21.29.27:520][  0]LogEngine: Initializing Engine...
+[2019.10.16-21.29.27:521][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.16-21.29.27:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.16-21.29.27:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.16-21.29.27:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.16-21.29.27:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.16-21.29.27:852][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.16-21.29.27:873][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.16-21.29.27:894][  0]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.16-21.29.27:926][  0]LogInit: FAudioDevice initialized.
+[2019.10.16-21.29.27:926][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.16-21.29.28:058][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/jsaem/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.10.16-21.29.28:067][  0]LogInit: Texture streaming: Enabled
+[2019.10.16-21.29.28:083][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.16-21.29.28:101][  0]LogInit: Transaction tracking system initialized
+[2019.10.16-21.29.28:132][  0]BlueprintLog: New page: Editor Load
+[2019.10.16-21.29.28:389][  0]LocalizationService: Localization service is disabled
+[2019.10.16-21.29.29:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/' took 0.02s
+[2019.10.16-21.29.29:002][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.16-21.29.29:002][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.16-21.29.29:002][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.16-21.29.29:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.10.16-21.29.29:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.16-21.29.29:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.10.16-21.29.29:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.16-21.29.29:230][  0]SourceControl: Source control is disabled
+[2019.10.16-21.29.29:231][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-21.29.29:231][  0]LightingResults: New page: Lighting Build
+[2019.10.16-21.29.29:236][  0]MapCheck: New page: Map Check
+[2019.10.16-21.29.29:236][  0]LightingResults: New page: Lighting Build
+[2019.10.16-21.29.30:825][  0]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-21.29.30:851][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-21.29.30:878][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-21.29.30:878][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2019.10.16-21.29.30:878][  0]LogFileHelpers: Loading map 'Level01' took 1.647
+[2019.10.16-21.29.31:008][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-21.29.31:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-21.29.31:019][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-21.29.31:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-21.29.31:037][  0]LogCollectionManager: Loaded 0 collections in 0.001436 seconds
+[2019.10.16-21.29.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Collections/' took 0.01s
+[2019.10.16-21.29.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/Developers/jsaem/Collections/' took 0.01s
+[2019.10.16-21.29.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/Collections/' took 0.00s
+[2019.10.16-21.29.31:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.16-21.29.31:076][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2651 classes and 620 folders.
+[2019.10.16-21.29.31:083][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.16-21.29.31:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:111][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:123][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:127][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:157][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:165][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:194][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:215][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:219][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:222][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:226][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:230][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:233][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.16-21.29.31:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.16-21.29.31:374][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.16-21.29.31:489][  0]LogSlate: Took 0.004526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.16-21.29.31:509][  0]LogSlate: Took 0.018337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.16-21.29.31:519][  0]LogSlate: Took 0.004827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.16-21.29.31:645][  0]LogRenderer: Reallocating scene render targets to support 1280x620 Format 10 NumSamples 1 (Frame:1).
+[2019.10.16-21.29.31:779][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.16-21.29.31:780][  0]LogLoad: (Engine Initialization) Total time: 21.88 seconds
+[2019.10.16-21.29.31:780][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.16-21.29.31:853][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.16-21.29.31:881][  0]LogSlate: Took 0.004401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.16-21.29.32:019][  3]LogAssetRegistry: Asset discovery search completed in 12.8395 seconds
+[2019.10.16-21.29.32:020][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.16-21.29.32:020][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2019.10.16-21.34.29:799][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-21.34.32:689][623]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.16-21.34.32:717][623]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-21.34.32:720][623]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-21.34.32:741][623]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-21.34.32:741][623]LightingResults: New page: Lighting Build
+[2019.10.16-21.34.32:742][623]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-21.34.32:743][623]MapCheck: New page: Map Check
+[2019.10.16-21.34.32:743][623]LightingResults: New page: Lighting Build
+[2019.10.16-21.34.32:803][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-21.34.32:851][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-21.34.32:851][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2019.10.16-21.34.32:851][623]LogFileHelpers: Loading map 'LevelMainMenu' took 0.112
+[2019.10.16-21.37.00:425][812]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-21.37.00:433][812]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-21.37.00:453][812]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-21.37.00:453][812]LightingResults: New page: Lighting Build
+[2019.10.16-21.37.00:454][812]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-21.37.00:454][812]MapCheck: New page: Map Check
+[2019.10.16-21.37.00:454][812]LightingResults: New page: Lighting Build
+[2019.10.16-21.37.00:536][812]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-21.37.00:584][812]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-21.37.00:584][812]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-21.37.00:584][812]LogFileHelpers: Loading map 'Level01' took 0.131
+[2019.10.16-21.45.13:225][102]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/Levels.Levels
+[2019.10.16-21.45.13:670][102]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.10.16-21.45.14:590][102]LogSlate: Took 0.003596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.16-21.46.27:119][460]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jsaem\Pictures\Analog Games\Star.jpg)
+[2019.10.16-21.46.27:148][460]LogTexture: Display: Building textures: Star (AutoDXT, 360X360)
+[2019.10.16-21.46.30:456][590]LogSlate: Window 'Save Content' being destroyed
+[2019.10.16-21.46.30:509][590]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels668DAD544D37722506C4D5A86BC2CC45.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-21.46.30:539][590]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Star7E9EB6514A1A24CC5DCFEDBFAC04CEFE.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Star.uasset'
+[2019.10.16-21.46.35:384][  1]LogSlate: Window 'Save Asset As' being destroyed
+[2019.10.16-21.46.37:057][ 69]LogSlate: Window 'Save Asset As' being destroyed
+[2019.10.16-21.48.15:548][710]LogSlate: Took 0.003787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.16-21.48.31:248][ 14]LogSlate: Window 'Color Picker' being destroyed
+[2019.10.16-21.48.34:500][155]LogSlate: Window 'Color Picker' being destroyed
+[2019.10.16-21.48.37:024][456]BlueprintLog: New page: Compile Levels
+[2019.10.16-21.48.37:035][456]LogBlueprint: Error: [Compiler Levels] The type of  Object  is undetermined.  Connect something to  Cast To EndLevel1  to imply a specific type.
+[2019.10.16-21.48.37:036][456]LogBlueprint: Error: [Compiler Levels] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.10.16-21.48.37:066][456]LogBlueprint: Warning: [Compiler Levels] [1167.17] Compile of Levels failed. 2 Fatal Issue(s) 0 Warning(s) [in 41 ms] (/Game/ThirdPersonBP/Blueprints/UI/Levels.Levels)
+[2019.10.16-21.48.53:920][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2019.10.16-21.48.54:934][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_Box4)
+[2019.10.16-21.48.55:699][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_Box4)
+[2019.10.16-21.48.56:222][719]LogEditorViewport: Clicking on Actor (LMB): EndLevel1_C (EndLevel)
+[2019.10.16-21.49.00:630][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-21.49.27:137][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World1Levels/Level01' took 0.025
+[2019.10.16-21.49.27:138][987]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/UI/Levels] ([1] browsable assets)...
+[2019.10.16-21.49.27:138][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/UI/Levels]
+[2019.10.16-21.49.27:164][987]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels_Auto103A574F2416B0ACE5BE4669C7821C3C4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/UI/Levels_Auto1.uasset'
+[2019.10.16-21.49.27:165][987]LogFileHelpers: Auto-saving content packages took 0.027
+[2019.10.16-22.01.10:232][ 16]BlueprintLog: New page: Compile Levels
+[2019.10.16-22.01.10:738][ 66]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsCF4FE3D24A72357D7D855FA240E6C810.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-22.11.30:787][438]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/Levels.Levels
+[2019.10.16-22.32.19:649][ 68]BlueprintLog: New page: Compile Levels
+[2019.10.16-22.32.20:245][117]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsF61DB4DD4D19AE8327ACACA88A503ADC.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-22.32.43:150][849]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-22.33.07:308][728]Cmd: TRANSACTION UNDO
+[2019.10.16-22.33.07:308][728]LogEditorTransaction: Undo Reset to Default
+[2019.10.16-22.33.25:295][236]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.16-22.33.54:671][957]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World1Levels/Level01' took 0.026
+[2019.10.16-22.43.55:168][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World1Levels/Level01' took 0.024
+[2019.10.16-22.48.17:452][875]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.16-22.48.31:837][654]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/UI/MySaveGame.MySaveGame
+[2019.10.16-22.49.13:118][577]BlueprintLog: New page: Compile MySaveGame
+[2019.10.16-22.49.14:243][706]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/MySaveGame5D896D9C42981A2B093C29B54EF86DC4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/MySaveGame.uasset'
+[2019.10.16-22.49.34:410][724]BlueprintLog: New page: Compile Levels
+[2019.10.16-22.49.35:026][775]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels64BD1B114DB7C26B838B40B9C7F7A562.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-22.50.40:145][739]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.16-22.54.10:538][495]BlueprintLog: New page: Compile Levels
+[2019.10.16-22.54.11:064][545]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels6499083847F0FC038D4835A779E98236.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-22.54.54:173][938]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_Auto290BA0BF049BC4CC972664C95406A5165.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Autosaves/Game/ThirdPersonBP/Maps/World1Levels/Level01_Auto2.umap'
+[2019.10.16-22.54.54:176][938]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World1Levels/Level01' took 0.257
+[2019.10.16-22.54.54:176][938]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2019.10.16-22.54.54:178][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/UI/Levels] ([1] browsable assets)...
+[2019.10.16-22.54.54:178][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/UI/Levels]
+[2019.10.16-22.54.54:210][938]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels_Auto22D1003F6408790277DA11FBBBD424818.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/UI/Levels_Auto2.uasset'
+[2019.10.16-22.54.54:211][938]LogFileHelpers: Auto-saving content packages took 0.033
+[2019.10.16-22.56.01:747][681]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/MySaveGameF80E78D44463F1413AA180962E9545B9.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/MySaveGame.uasset'
+[2019.10.16-22.56.14:747][240]BlueprintLog: New page: Compile MySaveGame
+[2019.10.16-22.56.15:243][292]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/MySaveGame775342EC4864D36ACF5CD99A3D3D65D5.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/MySaveGame.uasset'
+[2019.10.16-22.57.56:785][889]BlueprintLog: New page: Compile MySaveGame
+[2019.10.16-22.57.57:331][947]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/MySaveGame26EC1BFE4EBFA259EC6A5A851F39D63F.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/MySaveGame.uasset'
+[2019.10.16-22.59.25:686][498]BlueprintLog: New page: Compile MySaveGame
+[2019.10.16-22.59.26:224][555]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/MySaveGameC0D7D065415A324FAFB7B59E2DE69F6F.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/MySaveGame.uasset'
+[2019.10.16-22.59.41:955][430]BlueprintLog: New page: Compile Levels
+[2019.10.16-22.59.42:738][509]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels8BFFA7964DC11FBCB1DAF3B6E85CB196.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.00.38:742][ 82]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.00.39:519][160]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels4ACBC2EB4A52F1780EEFA99A28608DCB.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.01.50:458][ 59]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.01.50:980][107]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels4C831A8D4D86A072C5F322BE0C057468.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.02.52:839][352]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.02.53:565][424]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels03B6C99D40B8741461FB82899C4CC88E.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.03.27:601][557]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels79BE5F9E4CF94E2B5A4D76BD04929719.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.03.34:187][308]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level014F76BD2240C27777F1F34393DA04FD10.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.03.34:299][308]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData7DD3BFCA45C7994605118D9EBBF2FD22.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01_BuiltData.uasset'
+[2019.10.16-23.03.39:675][930]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-23.03.39:677][930]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-23.03.39:704][930]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.03.39:704][930]LightingResults: New page: Lighting Build
+[2019.10.16-23.03.39:705][930]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-23.03.39:706][930]MapCheck: New page: Map Check
+[2019.10.16-23.03.39:706][930]LightingResults: New page: Lighting Build
+[2019.10.16-23.03.39:779][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.03.39:839][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.03.39:839][930]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2019.10.16-23.03.39:839][930]LogFileHelpers: Loading map 'LevelMainMenu' took 0.135
+[2019.10.16-23.03.41:157][ 83]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.04.23:574][ 91]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.04.24:173][148]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsA739E7934DDECE78CCF15D9B86CB3D11.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.04.25:900][354]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.08.07:751][301]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.08.08:483][374]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels1FC4D00E497589B10DABD0B8DCE6B3EB.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.08.10:457][610]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.08.30:472][307]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.08.30:480][307]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.08.30:509][307]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.08.30:509][307]LightingResults: New page: Lighting Build
+[2019.10.16-23.08.30:509][307]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.08.30:510][307]MapCheck: New page: Map Check
+[2019.10.16-23.08.30:510][307]LightingResults: New page: Lighting Build
+[2019.10.16-23.08.30:605][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.08.30:658][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.08.30:658][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.10.16-23.08.30:659][307]LogFileHelpers: Loading map 'Level01' took 0.150
+[2019.10.16-23.08.35:475][874]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01
+[2019.10.16-23.08.56:637][369]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/TouchHUD.TouchHUD
+[2019.10.16-23.09.18:065][882]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.09.18:619][934]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels1F1C403440B81DDEFA3DACAF37DDC645.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.09.20:591][168]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.10.49:316][298]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.10.49:886][352]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsFA7778D541CD96BFCCB995AF29ABE165.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.10.54:230][864]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.10.54:255][864]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.10.54:255][864]LightingResults: New page: Lighting Build
+[2019.10.16-23.10.54:255][864]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.10.54:256][864]MapCheck: New page: Map Check
+[2019.10.16-23.10.54:256][864]LightingResults: New page: Lighting Build
+[2019.10.16-23.10.54:328][864]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.10.54:396][864]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.10.54:448][864]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.10.54:448][864]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2019.10.16-23.10.54:449][864]LogFileHelpers: Loading map 'Level01' took 0.196
+[2019.10.16-23.10.57:978][279]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-23.10.57:980][279]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-23.10.58:002][279]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.10.58:002][279]LightingResults: New page: Lighting Build
+[2019.10.16-23.10.58:003][279]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-23.10.58:003][279]MapCheck: New page: Map Check
+[2019.10.16-23.10.58:003][279]LightingResults: New page: Lighting Build
+[2019.10.16-23.10.58:071][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.10.58:125][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.10.58:125][279]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2019.10.16-23.10.58:125][279]LogFileHelpers: Loading map 'LevelMainMenu' took 0.123
+[2019.10.16-23.10.59:623][454]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.12.04:071][296]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.12.04:759][362]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels2F3882CA4A960609B64346BA944DA187.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.13.14:961][200]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.13.15:530][252]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels04D188E84CF185A8F3662FA648B23FF2.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.13.20:458][645]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.15.19:135][362]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.15.21:017][578]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.15.23:087][578]LogSlate: Window 'Save Content' being destroyed
+[2019.10.16-23.15.23:138][578]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels78983544439529DE1B89628464B4714B.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.15.59:963][ 24]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.16.01:703][222]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.16.03:561][222]LogSlate: Window 'Save Content' being destroyed
+[2019.10.16-23.16.03:611][222]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsC7B7926E4A186EF609773E95E9D89417.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.18.26:934][641]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.18.27:615][706]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelsC11223DA475BF47B2BAE629E85764324.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.19.03:688][604]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.19.03:695][604]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.19.03:724][604]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.19.03:724][604]LightingResults: New page: Lighting Build
+[2019.10.16-23.19.03:725][604]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.19.03:725][604]MapCheck: New page: Map Check
+[2019.10.16-23.19.03:726][604]LightingResults: New page: Lighting Build
+[2019.10.16-23.19.03:823][604]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.19.03:882][604]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.19.03:882][604]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2019.10.16-23.19.03:882][604]LogFileHelpers: Loading map 'Level01' took 0.159
+[2019.10.16-23.19.06:062][852]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01
+[2019.10.16-23.19.14:009][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2019.10.16-23.19.15:544][953]LogEditorViewport: Clicking on Actor (LMB): EndLevel1_C (EndLevel)
+[2019.10.16-23.19.16:818][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.19.16:917][113]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/GameObjects/EndLevel1.EndLevel1
+[2019.10.16-23.20.15:500][109]LogRenderer: Reallocating scene render targets to support 1288x712 Format 10 NumSamples 1 (Frame:1).
+[2019.10.16-23.20.26:217][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.22.28:921][808]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.16-23.24.31:021][989]BlueprintLog: New page: Compile EndLevel1
+[2019.10.16-23.24.32:026][ 81]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/EndLevel16DF3CE514EC16C4EB8E49D80135683BD.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/GameObjects/EndLevel1.uasset'
+[2019.10.16-23.24.35:313][445]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0166B0D17A48731380F523D6B6EA9C695C.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.24.35:423][445]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData7461AF704868856776150CB76E0F0DEC.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01_BuiltData.uasset'
+[2019.10.16-23.24.37:527][695]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.26.16:478][762]BlueprintLog: New page: Compile EndLevel1
+[2019.10.16-23.26.18:083][929]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/EndLevel14A70A6CC4C6A54EE6228D1A46C5349CE.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/GameObjects/EndLevel1.uasset'
+[2019.10.16-23.26.22:753][474]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/GameObjects/EndLevel2.EndLevel2
+[2019.10.16-23.27.29:687][381]BlueprintLog: New page: Compile EndLevel2
+[2019.10.16-23.27.30:277][426]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/EndLevel2040F8BC24D0431455443599C7DBBEE01.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/GameObjects/EndLevel2.uasset'
+[2019.10.16-23.27.46:102][302]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.27.46:792][366]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels64E26154462F14F138742E8C90EFDEB0.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.27.53:806][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.10.16-23.28.08:853][985]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.08:880][985]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.10.16-23.28.10:451][149]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01B9F8C4DC433984DD8B28D59B0D227DE4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.28.10:534][149]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData3CDA996B4ABEE7271850BD98F57FA1D8.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01_BuiltData.uasset'
+[2019.10.16-23.28.15:879][765]LogAIModule: Creating AISystem for world Level02
+[2019.10.16-23.28.15:895][765]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02
+[2019.10.16-23.28.15:922][765]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.15:922][765]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.15:922][765]LoadErrors: New page: Loading map: Level02.umap
+[2019.10.16-23.28.15:923][765]MapCheck: New page: Map Check
+[2019.10.16-23.28.15:923][765]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.16:027][765]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.16:082][765]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.16:082][765]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.28.16:082][765]LogFileHelpers: Loading map 'Level02' took 0.162
+[2019.10.16-23.28.17:617][941]LogEditorViewport: Clicking on Actor (LMB): WaterDeath_C (WaterDeath2)
+[2019.10.16-23.28.18:282][ 17]LogEditorViewport: Clicking on Actor (LMB): EndLevel1_C (EndLevel1)
+[2019.10.16-23.28.20:028][223]Cmd: DELETE
+[2019.10.16-23.28.20:028][223]Cmd: ACTOR DELETE
+[2019.10.16-23.28.20:034][223]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.20:059][223]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.10.16-23.28.21:730][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.28.22:033][432]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0213F0DE104C455CC37995C6AD134491A1.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap'
+[2019.10.16-23.28.22:249][432]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level02_BuiltDataC6CACD0C4C9C8C127E9207B292ED3255.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02_BuiltData.uasset'
+[2019.10.16-23.28.22:831][481]LogAIModule: Creating AISystem for world Level03
+[2019.10.16-23.28.22:843][481]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level03.Level03
+[2019.10.16-23.28.22:871][481]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.22:871][481]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.22:871][481]LoadErrors: New page: Loading map: Level03.umap
+[2019.10.16-23.28.22:872][481]MapCheck: New page: Map Check
+[2019.10.16-23.28.22:872][481]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.22:978][481]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.23:035][481]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.23:035][481]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2019.10.16-23.28.23:035][481]LogFileHelpers: Loading map 'Level03' took 0.164
+[2019.10.16-23.28.24:759][678]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (WaterDeath)
+[2019.10.16-23.28.26:255][853]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (WaterDeath)
+[2019.10.16-23.28.26:936][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_Box4)
+[2019.10.16-23.28.28:489][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.28.32:087][543]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.32:114][543]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.28.33:398][668]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level036C255CFF425DAAFC2A902C9D1352B48D.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap'
+[2019.10.16-23.28.33:607][668]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level03_BuiltDataB664DC114A3984CDB15864976317EF28.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03_BuiltData.uasset'
+[2019.10.16-23.28.34:317][733]LogAIModule: Creating AISystem for world Level04
+[2019.10.16-23.28.34:327][733]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04
+[2019.10.16-23.28.34:352][733]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.34:352][733]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.34:352][733]LoadErrors: New page: Loading map: Level04.umap
+[2019.10.16-23.28.34:353][733]MapCheck: New page: Map Check
+[2019.10.16-23.28.34:353][733]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.34:452][733]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.34:506][733]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.34:506][733]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2019.10.16-23.28.34:506][733]LogFileHelpers: Loading map 'Level04' took 0.155
+[2019.10.16-23.28.34:551][733]PIE: Warning: Constraint in '/Engine/Transient.World_25:PersistentLevel.PushBlock_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2019.10.16-23.28.36:479][960]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.36:504][960]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.10.16-23.28.37:952][114]LogAIModule: Creating AISystem for world Level05
+[2019.10.16-23.28.37:963][114]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level05.Level05
+[2019.10.16-23.28.39:161][114]LogSlate: Window 'Save Content' being destroyed
+[2019.10.16-23.28.39:359][114]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0488105F6C47E6ADCC4490D282AD72DA24.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap'
+[2019.10.16-23.28.39:393][114]LogFileHelpers: Saving map 'Level04' took 0.225
+[2019.10.16-23.28.39:394][114]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.39:394][114]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.39:395][114]LoadErrors: New page: Loading map: Level05.umap
+[2019.10.16-23.28.39:396][114]MapCheck: New page: Map Check
+[2019.10.16-23.28.39:396][114]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.39:509][114]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.39:561][114]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.39:561][114]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.10.16-23.28.39:561][114]LogFileHelpers: Loading map 'Level05' took 0.169
+[2019.10.16-23.28.39:628][114]LogAIModule: Creating AISystem for world Level04
+[2019.10.16-23.28.41:118][286]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.41:146][286]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.10.16-23.28.42:965][479]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level05F16E5FAD48C44A37F6B64A83E270AD65.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05.umap'
+[2019.10.16-23.28.43:184][479]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level05_BuiltDataF563E9A14D20EE3AAA6977943021E8FE.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05_BuiltData.uasset'
+[2019.10.16-23.28.46:296][794]LogAIModule: Creating AISystem for world Level06
+[2019.10.16-23.28.46:303][794]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World2Levels/Level06.Level06
+[2019.10.16-23.28.46:327][794]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level06.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.46:327][794]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.46:327][794]LoadErrors: New page: Loading map: Level06.umap
+[2019.10.16-23.28.46:328][794]MapCheck: New page: Map Check
+[2019.10.16-23.28.46:328][794]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.46:496][794]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.46:552][794]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.46:552][794]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
+[2019.10.16-23.28.46:552][794]LogFileHelpers: Loading map 'Level06' took 0.225
+[2019.10.16-23.28.48:357][  3]LogEditorActor: Deleted Actor: EndLevel2_C
+[2019.10.16-23.28.48:385][  3]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.28.50:111][184]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0609ADFDDA406A68081D0D9491193BA514.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level06.umap'
+[2019.10.16-23.28.50:255][184]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level06_BuiltData9585E46D4E7470D81C13A884E3DBE780.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level06_BuiltData.uasset'
+[2019.10.16-23.28.51:087][260]LogAIModule: Creating AISystem for world Level07
+[2019.10.16-23.28.51:093][260]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World2Levels/Level07.Level07
+[2019.10.16-23.28.51:119][260]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.51:119][260]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.51:119][260]LoadErrors: New page: Loading map: Level07.umap
+[2019.10.16-23.28.51:120][260]MapCheck: New page: Map Check
+[2019.10.16-23.28.51:120][260]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.51:216][260]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.51:270][260]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.51:270][260]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.28.51:270][260]LogFileHelpers: Loading map 'Level07' took 0.152
+[2019.10.16-23.28.52:325][377]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.52:352][377]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.10.16-23.28.55:108][574]LogSlate: Window 'Save Content' being destroyed
+[2019.10.16-23.28.55:343][574]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level07F71609D34DDCF15284E5CD9780126CFD.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level07.umap'
+[2019.10.16-23.28.55:377][574]LogFileHelpers: Saving map 'Level07' took 0.253
+[2019.10.16-23.28.56:206][655]LogAIModule: Creating AISystem for world Level08
+[2019.10.16-23.28.56:215][655]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World2Levels/Level08.Level08
+[2019.10.16-23.28.56:244][655]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level08.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.28.56:245][655]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.56:245][655]LoadErrors: New page: Loading map: Level08.umap
+[2019.10.16-23.28.56:246][655]MapCheck: New page: Map Check
+[2019.10.16-23.28.56:246][655]LightingResults: New page: Lighting Build
+[2019.10.16-23.28.56:343][655]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.28.56:398][655]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.28.56:399][655]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.28.56:399][655]LogFileHelpers: Loading map 'Level08' took 0.155
+[2019.10.16-23.28.58:114][853]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.28.58:144][853]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.10.16-23.29.00:460][103]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level08BF77A73442B2A124F0B16F88BB345538.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level08.umap'
+[2019.10.16-23.29.00:620][103]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level08_BuiltData9D594CC54116C26FA2240A99A0D0D3EC.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level08_BuiltData.uasset'
+[2019.10.16-23.29.01:471][187]LogAIModule: Creating AISystem for world Level09
+[2019.10.16-23.29.01:476][187]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World2Levels/Level09.Level09
+[2019.10.16-23.29.01:502][187]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level09.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.01:502][187]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.01:502][187]LoadErrors: New page: Loading map: Level09.umap
+[2019.10.16-23.29.01:503][187]MapCheck: New page: Map Check
+[2019.10.16-23.29.01:503][187]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.01:599][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.01:655][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.01:655][187]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2019.10.16-23.29.01:655][187]LogFileHelpers: Loading map 'Level09' took 0.155
+[2019.10.16-23.29.03:299][373]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.03:322][373]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.10.16-23.29.04:482][485]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level09526362434E94AB18BAC46EB16AB561E5.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level09.umap'
+[2019.10.16-23.29.04:635][485]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level09_BuiltData79DA00AD41BE24D69C48C09FB7E1DB18.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level09_BuiltData.uasset'
+[2019.10.16-23.29.05:233][538]LogAIModule: Creating AISystem for world Level10
+[2019.10.16-23.29.05:241][538]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World2Levels/Level10.Level10
+[2019.10.16-23.29.05:265][538]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level10.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.05:265][538]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.05:266][538]LoadErrors: New page: Loading map: Level10.umap
+[2019.10.16-23.29.05:266][538]MapCheck: New page: Map Check
+[2019.10.16-23.29.05:266][538]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.05:362][538]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.05:414][538]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.05:414][538]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.10.16-23.29.05:414][538]LogFileHelpers: Loading map 'Level10' took 0.149
+[2019.10.16-23.29.06:351][641]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.06:378][641]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.10.16-23.29.07:471][745]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level10CC01131C41C3DF651466938B0AB924FB.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level10.umap'
+[2019.10.16-23.29.07:621][745]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level10_BuiltData43E1EE7146246CD9C8B9838701A68D16.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World2Levels/Level10_BuiltData.uasset'
+[2019.10.16-23.29.10:511][ 24]LogAIModule: Creating AISystem for world Level11
+[2019.10.16-23.29.10:519][ 24]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World3Levels/Level11.Level11
+[2019.10.16-23.29.10:549][ 24]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level11.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.10:550][ 24]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.10:550][ 24]LoadErrors: New page: Loading map: Level11.umap
+[2019.10.16-23.29.10:551][ 24]MapCheck: New page: Map Check
+[2019.10.16-23.29.10:551][ 24]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.10:661][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.10:718][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.10:718][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2019.10.16-23.29.10:718][ 24]LogFileHelpers: Loading map 'Level11' took 0.169
+[2019.10.16-23.29.11:927][159]LogEditorActor: Deleted Actor: EndLevel3_C
+[2019.10.16-23.29.11:956][159]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.10.16-23.29.13:586][326]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level11F9F2B06E4A74AD3DF172F08EE9105A1A.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level11.umap'
+[2019.10.16-23.29.13:732][326]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level11_BuiltDataA94C9A1F45C8AC4D7E727792E106275F.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level11_BuiltData.uasset'
+[2019.10.16-23.29.14:370][384]LogAIModule: Creating AISystem for world Level12
+[2019.10.16-23.29.14:376][384]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World3Levels/Level12.Level12
+[2019.10.16-23.29.14:402][384]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level12.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.14:402][384]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.14:403][384]LoadErrors: New page: Loading map: Level12.umap
+[2019.10.16-23.29.14:403][384]MapCheck: New page: Map Check
+[2019.10.16-23.29.14:403][384]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.14:521][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.14:575][384]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.14:576][384]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.29.14:576][384]LogFileHelpers: Loading map 'Level12' took 0.173
+[2019.10.16-23.29.15:652][503]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.15:679][503]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.29.17:210][660]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level1234B4AAA34A86015C22E32DAEC2F7DA16.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level12.umap'
+[2019.10.16-23.29.17:355][660]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level12_BuiltDataC669BE634FE2AAC5867CE9A0694B7D55.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level12_BuiltData.uasset'
+[2019.10.16-23.29.18:061][714]LogAIModule: Creating AISystem for world Level13
+[2019.10.16-23.29.18:068][714]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World3Levels/Level13.Level13
+[2019.10.16-23.29.18:096][714]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level13.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.18:096][714]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.18:096][714]LoadErrors: New page: Loading map: Level13.umap
+[2019.10.16-23.29.18:097][714]MapCheck: New page: Map Check
+[2019.10.16-23.29.18:097][714]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.18:196][714]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.18:247][714]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.18:247][714]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
+[2019.10.16-23.29.18:247][714]LogFileHelpers: Loading map 'Level13' took 0.153
+[2019.10.16-23.29.19:626][871]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.19:653][871]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.29.20:672][965]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level13BECFC9144BDDB2B12CA6CBA83322056F.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level13.umap'
+[2019.10.16-23.29.20:819][965]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level13_BuiltData18AE918644005E7CC9462EB3070DD063.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level13_BuiltData.uasset'
+[2019.10.16-23.29.21:543][ 22]LogAIModule: Creating AISystem for world Level14
+[2019.10.16-23.29.21:551][ 22]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World3Levels/Level14.Level14
+[2019.10.16-23.29.21:576][ 22]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level14.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.21:576][ 22]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.21:576][ 22]LoadErrors: New page: Loading map: Level14.umap
+[2019.10.16-23.29.21:577][ 22]MapCheck: New page: Map Check
+[2019.10.16-23.29.21:577][ 22]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.21:675][ 22]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.21:730][ 22]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.21:730][ 22]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.29.21:730][ 22]LogFileHelpers: Loading map 'Level14' took 0.155
+[2019.10.16-23.29.22:947][160]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.22:974][160]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.29.24:173][277]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level14B61100E14773837CE2613D9B3F89E8D8.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level14.umap'
+[2019.10.16-23.29.24:318][277]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level14_BuiltData3E87FD14489EA7477C692DB36836DF20.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level14_BuiltData.uasset'
+[2019.10.16-23.29.26:306][483]LogAIModule: Creating AISystem for world Level15
+[2019.10.16-23.29.26:312][483]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World3Levels/Level15.Level15
+[2019.10.16-23.29.26:335][483]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level15.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.26:335][483]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.26:335][483]LoadErrors: New page: Loading map: Level15.umap
+[2019.10.16-23.29.26:336][483]MapCheck: New page: Map Check
+[2019.10.16-23.29.26:336][483]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.26:427][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.26:478][483]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.26:478][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.10.16-23.29.26:478][483]LogFileHelpers: Loading map 'Level15' took 0.144
+[2019.10.16-23.29.27:639][613]LogEditorActor: Deleted Actor: EndLevel1_C
+[2019.10.16-23.29.27:666][613]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.10.16-23.29.28:861][729]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level15CCBC309B4EBEBCF7422B3CA415423486.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level15.umap'
+[2019.10.16-23.29.29:005][729]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level15_BuiltData45F6837D4F1A9FA93FD346B48A023F6E.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World3Levels/Level15_BuiltData.uasset'
+[2019.10.16-23.29.35:363][483]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.29.35:371][483]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.29.35:398][483]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.29.35:398][483]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.35:399][483]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.29.35:399][483]MapCheck: New page: Map Check
+[2019.10.16-23.29.35:399][483]LightingResults: New page: Lighting Build
+[2019.10.16-23.29.35:492][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.29.35:548][483]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.29.35:548][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2019.10.16-23.29.35:548][483]LogFileHelpers: Loading map 'Level01' took 0.151
+[2019.10.16-23.29.49:853][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.29.50:143][219]LogActorFactory: Actor Factory created Cube
+[2019.10.16-23.29.51:461][376]LogActorFactory: Actor Factory created Cube
+[2019.10.16-23.30.03:410][779]Cmd: DELETE
+[2019.10.16-23.30.03:410][779]Cmd: ACTOR DELETE
+[2019.10.16-23.30.03:413][779]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.16-23.30.03:437][779]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.10.16-23.30.04:653][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.30.04:742][935]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.30.05:853][ 68]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.30.13:445][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.30.21:360][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.30.28:050][677]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2019.10.16-23.30.29:932][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.30.35:258][533]EditorErrors: New page: Actor attachment
+[2019.10.16-23.30.47:782][ 23]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01
+[2019.10.16-23.31.19:383][766]BlueprintLog: New page: Compile Level01
+[2019.10.16-23.31.20:601][864]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01DCAF5FDA460FC2C2B904D8AAB19E6343.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.31.20:633][864]LogFileHelpers: Saving map 'Level01' took 0.258
+[2019.10.16-23.31.31:617][165]LogAIModule: Creating AISystem for world Level02
+[2019.10.16-23.31.31:629][165]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02
+[2019.10.16-23.31.31:656][165]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.31.31:656][165]LightingResults: New page: Lighting Build
+[2019.10.16-23.31.31:657][165]LoadErrors: New page: Loading map: Level02.umap
+[2019.10.16-23.31.31:658][165]MapCheck: New page: Map Check
+[2019.10.16-23.31.31:658][165]LightingResults: New page: Lighting Build
+[2019.10.16-23.31.31:759][165]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.31.31:813][165]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.31.31:813][165]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2019.10.16-23.31.31:813][165]LogFileHelpers: Loading map 'Level02' took 0.157
+[2019.10.16-23.31.35:399][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.31.35:486][580]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.31.36:920][751]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.31.39:153][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.31.45:825][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.31.49:180][171]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.31.49:892][252]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.31.49:894][252]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02:PersistentLevel.Level02
+[2019.10.16-23.32.30:367][ 36]BlueprintLog: New page: Compile Level02
+[2019.10.16-23.32.30:377][ 36]LogBlueprint: Error: [Compiler PersistentLevel.Level02] This blueprint (self) is not a MySaveGame_C, therefore ' Target ' must have a connection.
+[2019.10.16-23.32.30:377][ 36]LogBlueprint: Error: [Compiler PersistentLevel.Level02] Variable node  Set Level3Unlocked?  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.10.16-23.32.30:518][ 36]LogBlueprint: Warning: [Compiler PersistentLevel.Level02] [7400.62] Compile of PersistentLevel.Level02 failed. 2 Fatal Issue(s) 0 Warning(s) [in 150 ms] (/Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02:PersistentLevel.Level02)
+[2019.10.16-23.32.39:766][143]BlueprintLog: New page: Compile Level02
+[2019.10.16-23.32.41:121][258]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0235AA7CB249DBA51F4E9092A671617DF3.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap'
+[2019.10.16-23.32.41:152][258]LogFileHelpers: Saving map 'Level02' took 0.261
+[2019.10.16-23.32.45:395][745]LogAIModule: Creating AISystem for world Level03
+[2019.10.16-23.32.45:409][745]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level03.Level03
+[2019.10.16-23.32.45:434][745]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.32.45:434][745]LightingResults: New page: Lighting Build
+[2019.10.16-23.32.45:434][745]LoadErrors: New page: Loading map: Level03.umap
+[2019.10.16-23.32.45:435][745]MapCheck: New page: Map Check
+[2019.10.16-23.32.45:435][745]LightingResults: New page: Lighting Build
+[2019.10.16-23.32.45:543][745]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.32.45:597][745]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.32.45:597][745]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.10.16-23.32.45:597][745]LogFileHelpers: Loading map 'Level03' took 0.165
+[2019.10.16-23.32.48:981][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.32.49:081][145]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.32.50:532][318]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.32.53:244][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.32.59:377][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.33.02:963][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.33.04:189][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.33.04:192][932]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level03.Level03:PersistentLevel.Level03
+[2019.10.16-23.33.38:057][917]BlueprintLog: New page: Compile Level03
+[2019.10.16-23.33.38:896][966]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level035B3CA7FB46E5CECF18DED380EE2CD769.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap'
+[2019.10.16-23.33.38:927][966]LogFileHelpers: Saving map 'Level03' took 0.281
+[2019.10.16-23.33.45:534][753]BlueprintLog: New page: Compile Level03
+[2019.10.16-23.33.46:265][790]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level03114072124309FC1C19C906B9DEE1FEC4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap'
+[2019.10.16-23.33.46:297][790]LogFileHelpers: Saving map 'Level03' took 0.275
+[2019.10.16-23.34.41:763][ 88]EditorErrors: New page: Actor attachment
+[2019.10.16-23.34.47:817][780]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level03135047064B501558A427CB8DC5D909A6.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap'
+[2019.10.16-23.34.47:996][780]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level03_BuiltData7CD9B403434F76BAF563B794FB649826.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03_BuiltData.uasset'
+[2019.10.16-23.34.49:087][896]LogAIModule: Creating AISystem for world Level02
+[2019.10.16-23.34.49:098][896]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02
+[2019.10.16-23.34.49:126][896]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.34.49:126][896]LightingResults: New page: Lighting Build
+[2019.10.16-23.34.49:126][896]LoadErrors: New page: Loading map: Level02.umap
+[2019.10.16-23.34.49:128][896]MapCheck: New page: Map Check
+[2019.10.16-23.34.49:128][896]LightingResults: New page: Lighting Build
+[2019.10.16-23.34.49:231][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.34.49:286][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.34.49:286][896]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2019.10.16-23.34.49:286][896]LogFileHelpers: Loading map 'Level02' took 0.161
+[2019.10.16-23.34.54:112][466]EditorErrors: New page: Actor attachment
+[2019.10.16-23.34.58:919][ 10]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level02406ABCB34F98CEC7FC8B2EA45334F31B.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap'
+[2019.10.16-23.34.59:112][ 10]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level02_BuiltData87A477AC41BFC8DDAB534089F2FCB4AC.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02_BuiltData.uasset'
+[2019.10.16-23.35.00:497][157]LogAIModule: Creating AISystem for world Level04
+[2019.10.16-23.35.00:510][157]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04
+[2019.10.16-23.35.00:539][157]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.35.00:540][157]LightingResults: New page: Lighting Build
+[2019.10.16-23.35.00:540][157]LoadErrors: New page: Loading map: Level04.umap
+[2019.10.16-23.35.00:541][157]MapCheck: New page: Map Check
+[2019.10.16-23.35.00:541][157]LightingResults: New page: Lighting Build
+[2019.10.16-23.35.00:644][157]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.35.00:703][157]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.35.00:703][157]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2019.10.16-23.35.00:703][157]LogFileHelpers: Loading map 'Level04' took 0.164
+[2019.10.16-23.35.17:172][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.35.17:272][120]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.35.18:496][266]LogActorFactory: Actor Factory created Plane
+[2019.10.16-23.35.27:787][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.35.35:339][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.35.36:049][321]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.35.36:052][321]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04:PersistentLevel.Level04
+[2019.10.16-23.36.05:007][729]BlueprintLog: New page: Compile Level04
+[2019.10.16-23.36.05:930][797]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level04EF05089B45ABD942542CAAB3B57DE9DE.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap'
+[2019.10.16-23.36.05:961][797]LogFileHelpers: Saving map 'Level04' took 0.231
+[2019.10.16-23.37.31:011][697]EditorErrors: New page: Actor attachment
+[2019.10.16-23.37.33:221][938]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level0494F9A05748C85EB6FDDC61AFB15CE840.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap'
+[2019.10.16-23.37.33:415][938]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level04_BuiltData1C88757C4F833CA8BD5E31ABE2B3AFB2.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04_BuiltData.uasset'
+[2019.10.16-23.37.36:176][255]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04:PersistentLevel.Level04
+[2019.10.16-23.37.42:011][921]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.37.42:017][921]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.37.42:044][921]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.37.42:045][921]LightingResults: New page: Lighting Build
+[2019.10.16-23.37.42:045][921]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.37.42:046][921]MapCheck: New page: Map Check
+[2019.10.16-23.37.42:046][921]LightingResults: New page: Lighting Build
+[2019.10.16-23.37.42:137][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.37.42:190][921]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.37.42:190][921]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.10.16-23.37.42:190][921]LogFileHelpers: Loading map 'Level01' took 0.145
+[2019.10.16-23.37.51:709][ 55]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-23.37.51:711][ 55]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-23.37.51:735][ 55]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.37.51:735][ 55]LightingResults: New page: Lighting Build
+[2019.10.16-23.37.51:736][ 55]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-23.37.51:736][ 55]MapCheck: New page: Map Check
+[2019.10.16-23.37.51:736][ 55]LightingResults: New page: Lighting Build
+[2019.10.16-23.37.51:807][ 55]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.37.51:861][ 55]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.37.51:861][ 55]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2019.10.16-23.37.51:861][ 55]LogFileHelpers: Loading map 'LevelMainMenu' took 0.127
+[2019.10.16-23.37.56:910][656]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.39.21:825][486]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.39.21:831][486]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01
+[2019.10.16-23.39.21:856][486]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.39.21:856][486]LightingResults: New page: Lighting Build
+[2019.10.16-23.39.21:856][486]LoadErrors: New page: Loading map: Level01.umap
+[2019.10.16-23.39.21:856][486]MapCheck: New page: Map Check
+[2019.10.16-23.39.21:856][486]LightingResults: New page: Lighting Build
+[2019.10.16-23.39.21:954][486]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.39.22:009][486]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.39.22:010][486]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2019.10.16-23.39.22:010][486]LogFileHelpers: Loading map 'Level01' took 0.154
+[2019.10.16-23.39.25:315][869]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01
+[2019.10.16-23.39.44:025][ 75]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (End)
+[2019.10.16-23.39.47:679][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.40.03:976][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.03:976][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.16-23.40.03:976][446]PIE: New page: PIE session: Level01 (Oct 16, 2019, 9:40:03 AM)
+[2019.10.16-23.40.03:989][446]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01
+[2019.10.16-23.40.04:003][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013872s)
+[2019.10.16-23.40.04:004][446]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.40.04:004][446]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2019.10.16-23.40.04:004][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01 to /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 (0.014967s)
+[2019.10.16-23.40.04:043][446]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.16-23.40.04:051][446]LogInit: FAudioDevice initialized.
+[2019.10.16-23.40.04:105][446]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.10.16-23.40.04:114][446]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2019.10.16-16.40.04
+[2019.10.16-23.40.04:115][446]LogWorld: Bringing up level for play took: 0.007374
+[2019.10.16-23.40.04:148][446]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.10.16-23.40.04:152][446]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01 -0.765
+[2019.10.16-23.40.04:152][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.18:611][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.18:611][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.40.18:653][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.16-23.40.18:654][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.18:683][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.40.18:714][180]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.10.16-23.40.20:050][340]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (End)
+[2019.10.16-23.40.25:047][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.40.25:358][941]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01EB8797A44B085ED95191F69FFC852FE4.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.40.25:461][941]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level01_BuiltData7D4D7ECC43B64354204674A999EE5C64.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01_BuiltData.uasset'
+[2019.10.16-23.40.26:740][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.16-23.40.26:760][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.26:760][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.16-23.40.26:760][ 70]PIE: New page: PIE session: Level01 (Oct 16, 2019, 9:40:26 AM)
+[2019.10.16-23.40.26:760][ 70]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01
+[2019.10.16-23.40.26:771][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011015s)
+[2019.10.16-23.40.26:772][ 70]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.40.26:772][ 70]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.10.16-23.40.26:772][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01 to /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 (0.011858s)
+[2019.10.16-23.40.26:809][ 70]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.16-23.40.26:817][ 70]LogInit: FAudioDevice initialized.
+[2019.10.16-23.40.26:851][ 70]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.10.16-23.40.26:854][ 70]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2019.10.16-16.40.26
+[2019.10.16-23.40.26:854][ 70]LogWorld: Bringing up level for play took: 0.001793
+[2019.10.16-23.40.26:872][ 70]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01 -0.046
+[2019.10.16-23.40.26:872][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.34:502][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.34:502][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.40.34:537][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.16-23.40.34:538][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.40.34:570][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.40.34:607][985]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.10.16-23.40.36:194][175]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2019.10.16-23.40.38:737][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.40.40:499][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.41.34:125][ 94]BlueprintLog: New page: Compile Level01
+[2019.10.16-23.41.36:578][365]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.16-23.41.36:598][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.41.36:598][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.16-23.41.36:599][365]PIE: New page: PIE session: Level01 (Oct 16, 2019, 9:41:36 AM)
+[2019.10.16-23.41.36:599][365]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01
+[2019.10.16-23.41.36:607][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009594s)
+[2019.10.16-23.41.36:608][365]LogAIModule: Creating AISystem for world Level01
+[2019.10.16-23.41.36:608][365]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2019.10.16-23.41.36:608][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01 to /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 (0.010550s)
+[2019.10.16-23.41.36:648][365]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.16-23.41.36:655][365]LogInit: FAudioDevice initialized.
+[2019.10.16-23.41.36:696][365]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.10.16-23.41.36:705][365]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2019.10.16-16.41.36
+[2019.10.16-23.41.36:706][365]LogWorld: Bringing up level for play took: 0.007333
+[2019.10.16-23.41.36:724][365]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/World1Levels/UEDPIE_0_Level01 -0.194
+[2019.10.16-23.41.36:724][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.41.44:123][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.41.44:123][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.41.44:164][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.16-23.41.44:165][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/World1Levels/Level01.Level01:PersistentLevel.Level01'
+[2019.10.16-23.41.44:199][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.16-23.41.44:236][252]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.10.16-23.41.45:228][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.41.50:057][919]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level018B74B2C34B528D7BCDCDD196E0CBDC7E.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level01.umap'
+[2019.10.16-23.41.50:089][919]LogFileHelpers: Saving map 'Level01' took 0.257
+[2019.10.16-23.42.01:197][243]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-23.42.01:199][243]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-23.42.01:225][243]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.42.01:225][243]LightingResults: New page: Lighting Build
+[2019.10.16-23.42.01:225][243]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-23.42.01:262][243]MapCheck: New page: Map Check
+[2019.10.16-23.42.01:262][243]LightingResults: New page: Lighting Build
+[2019.10.16-23.42.01:330][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.42.01:385][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.42.01:386][243]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2019.10.16-23.42.01:386][243]LogFileHelpers: Loading map 'LevelMainMenu' took 0.162
+[2019.10.16-23.42.55:435][  1]BlueprintLog: New page: Compile Levels
+[2019.10.16-23.42.57:342][212]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Levels02891F904F1F21E9E4149F8798202B52.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Blueprints/UI/Levels.uasset'
+[2019.10.16-23.42.59:492][468]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.43.41:938][566]LogAIModule: Creating AISystem for world Level02
+[2019.10.16-23.43.41:948][566]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02
+[2019.10.16-23.43.41:974][566]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.43.41:974][566]LightingResults: New page: Lighting Build
+[2019.10.16-23.43.41:975][566]LoadErrors: New page: Loading map: Level02.umap
+[2019.10.16-23.43.41:975][566]MapCheck: New page: Map Check
+[2019.10.16-23.43.41:975][566]LightingResults: New page: Lighting Build
+[2019.10.16-23.43.42:079][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.43.42:135][566]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.43.42:135][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2019.10.16-23.43.42:135][566]LogFileHelpers: Loading map 'Level02' took 0.162
+[2019.10.16-23.43.43:281][697]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2019.10.16-23.43.48:512][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.43.49:472][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.43.49:475][424]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level02.Level02:PersistentLevel.Level02
+[2019.10.16-23.43.53:001][812]BlueprintLog: New page: Compile Level02
+[2019.10.16-23.43.53:713][849]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level029FA78BC44FAE7F958FAFC6BC01F1A49C.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level02.umap'
+[2019.10.16-23.43.53:743][849]LogFileHelpers: Saving map 'Level02' took 0.265
+[2019.10.16-23.43.59:553][529]LogAIModule: Creating AISystem for world Level03
+[2019.10.16-23.43.59:566][529]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level03.Level03
+[2019.10.16-23.43.59:595][529]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.43.59:595][529]LightingResults: New page: Lighting Build
+[2019.10.16-23.43.59:596][529]LoadErrors: New page: Loading map: Level03.umap
+[2019.10.16-23.43.59:597][529]MapCheck: New page: Map Check
+[2019.10.16-23.43.59:597][529]LightingResults: New page: Lighting Build
+[2019.10.16-23.43.59:701][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.43.59:753][529]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.43.59:753][529]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
+[2019.10.16-23.43.59:753][529]LogFileHelpers: Loading map 'Level03' took 0.159
+[2019.10.16-23.44.00:884][659]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
+[2019.10.16-23.44.05:655][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.44.06:418][308]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.44.06:420][308]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level03.Level03:PersistentLevel.Level03
+[2019.10.16-23.44.10:056][708]BlueprintLog: New page: Compile Level03
+[2019.10.16-23.44.10:918][760]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level03F22B6B73483E2DA0C10805AFD2D612EA.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level03.umap'
+[2019.10.16-23.44.10:949][760]LogFileHelpers: Saving map 'Level03' took 0.277
+[2019.10.16-23.44.14:420][164]LogAIModule: Creating AISystem for world Level04
+[2019.10.16-23.44.14:433][164]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04
+[2019.10.16-23.44.14:458][164]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.44.14:458][164]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.14:459][164]LoadErrors: New page: Loading map: Level04.umap
+[2019.10.16-23.44.14:496][164]MapCheck: New page: Map Check
+[2019.10.16-23.44.14:496][164]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.14:590][164]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.44.14:642][164]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.44.14:644][164]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.227ms to complete.
+[2019.10.16-23.44.14:644][164]LogFileHelpers: Loading map 'Level04' took 0.186
+[2019.10.16-23.44.17:006][442]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2019.10.16-23.44.21:718][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.44.22:340][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-23.44.22:343][ 66]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/World1Levels/Level04.Level04:PersistentLevel.Level04
+[2019.10.16-23.44.25:376][391]BlueprintLog: New page: Compile Level04
+[2019.10.16-23.44.26:073][432]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level04632C61294BE1BD731E68EC9DA03DB515.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level04.umap'
+[2019.10.16-23.44.26:105][432]LogFileHelpers: Saving map 'Level04' took 0.233
+[2019.10.16-23.44.30:086][896]LogAIModule: Creating AISystem for world Level05
+[2019.10.16-23.44.30:098][896]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World1Levels/Level05.Level05
+[2019.10.16-23.44.30:126][896]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.44.30:126][896]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.30:127][896]LoadErrors: New page: Loading map: Level05.umap
+[2019.10.16-23.44.30:128][896]MapCheck: New page: Map Check
+[2019.10.16-23.44.30:128][896]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.30:218][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.44.30:270][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.44.30:270][896]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2019.10.16-23.44.30:270][896]LogFileHelpers: Loading map 'Level05' took 0.145
+[2019.10.16-23.44.31:891][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.44.32:145][ 91]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level05874A4EB54AABF28BAA84C0A796D8892E.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05.umap'
+[2019.10.16-23.44.32:333][ 91]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/Level05_BuiltData5E6D2FB54F195C5FCB876F86D2DEE4DB.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/World1Levels/Level05_BuiltData.uasset'
+[2019.10.16-23.44.34:802][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.44.37:750][727]LogAIModule: Creating AISystem for world LevelMainMenu
+[2019.10.16-23.44.37:752][727]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.LevelMainMenu
+[2019.10.16-23.44.37:780][727]Cmd: MAP LOAD FILE="../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.16-23.44.37:781][727]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.37:781][727]LoadErrors: New page: Loading map: LevelMainMenu.umap
+[2019.10.16-23.44.37:782][727]MapCheck: New page: Map Check
+[2019.10.16-23.44.37:782][727]LightingResults: New page: Lighting Build
+[2019.10.16-23.44.37:851][727]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.16-23.44.37:906][727]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.16-23.44.37:906][727]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2019.10.16-23.44.37:906][727]LogFileHelpers: Loading map 'LevelMainMenu' took 0.126
+[2019.10.16-23.44.38:895][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.44.38:952][847]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.10.16-23.47.14:159][282]LogSavePackage: Moving '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Saved/LevelMainMenuD6F1EF504D9D81F3F086C0A2DD0656ED.tmp' to '../../../../../../Users/jsaem/Documents/GitHub/PuzzleMobile/PuzzleMobile/Content/ThirdPersonBP/Maps/UserInterfaceLevels/LevelMainMenu.umap'
+[2019.10.16-23.51.19:273][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-23.51.20:310][355]LogSlate: Window 'PuzzleMobile - Unreal Editor' being destroyed
+[2019.10.16-23.51.20:726][356]Cmd: QUIT_EDITOR
+[2019.10.16-23.51.21:179][356]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.16-23.51.21:188][356]LogExit: Preparing to exit.
+[2019.10.16-23.51.21:607][356]LogExit: Editor shut down
+[2019.10.16-23.51.21:608][356]LogExit: Transaction tracking system shut down
+[2019.10.16-23.51.21:886][356]LogExit: Object subsystem successfully closed.
+[2019.10.16-23.51.21:908][356]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.16-23.51.21:911][356]LogD3D11RHI: Shutdown
+[2019.10.16-23.51.21:911][356]LogD3D11RHI: CleanupD3DDevice
+[2019.10.16-23.51.21:913][356]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module Voice (628)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module SequencerWidgets (626)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module BlueprintGraph (624)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
+[2019.10.16-23.51.21:930][356]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.10.16-23.51.21:931][356]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.10.16-23.51.21:932][356]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.10.16-23.51.21:933][356]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.10.16-23.51.22:342][356]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.10.16-23.51.22:343][356]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.10.16-23.51.22:343][356]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.10.16-23.51.22:343][356]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.10.16-23.51.22:343][356]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.10.16-23.51.22:398][356]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.10.16-23.51.22:398][356]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.10.16-23.51.22:398][356]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.10.16-23.51.22:399][356]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.10.16-23.51.22:399][356]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.10.16-23.51.22:399][356]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.10.16-23.51.22:399][356]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.10.16-23.51.22:415][356]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.10.16-23.51.22:415][356]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.10.16-23.51.22:415][356]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.10.16-23.51.22:420][356]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.10.16-23.51.22:420][356]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.10.16-23.51.22:420][356]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.10.16-23.51.22:420][356]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.10.16-23.51.22:421][356]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.10.16-23.51.22:424][356]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.10.16-23.51.22:526][356]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.10.16-23.51.22:529][356]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.10.16-23.51.22:532][356]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.10.16-23.51.22:532][356]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.10.16-23.51.22:532][356]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.10.16-23.51.22:533][356]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.10.16-23.51.22:634][356]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.10.16-23.51.22:735][356]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.10.16-23.51.22:736][356]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.10.16-23.51.22:736][356]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.10.16-23.51.22:736][356]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.10.16-23.51.22:737][356]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.10.16-23.51.22:738][356]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.10.16-23.51.22:744][356]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.10.16-23.51.22:745][356]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.10.16-23.51.22:745][356]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.10.16-23.51.22:746][356]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.10.16-23.51.22:758][356]LogDerivedDataCache: Shutdown
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.10.16-23.51.22:758][356]LogXGEController: Cleaning working directory: C:/Users/jsaem/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.10.16-23.51.22:758][356]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.10.16-23.51.22:759][356]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.10.16-23.51.22:760][356]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.10.16-23.51.22:760][356]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.10.16-23.51.22:760][356]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.10.16-23.51.22:760][356]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.10.16-23.51.22:761][356]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.10.16-23.51.22:762][356]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.10.16-23.51.22:762][356]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.10.16-23.51.22:763][356]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.10.16-23.51.22:763][356]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.10.16-23.51.22:774][356]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.10.16-23.51.22:775][356]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.10.16-23.51.22:775][356]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.10.16-23.51.22:781][356]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.10.16-23.51.22:781][356]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.16-23.51.22:781][356]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB9AC9F21-43ED-1534-3A77-57AB51D2D083%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=9b095e8e4a88390c73a7b1bb246dac72%7Cd7314a6cb5c4410994ec964b4763ca8d%7C872a1567-8e0d-4610-9b98-30a2b4db1f2b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.16-23.51.22:808][356]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.10.16-23.51.22:809][356]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.10.16-23.51.22:809][356]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.10.16-23.51.22:810][356]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.10.16-23.51.22:819][356]LogExit: Exiting.
+[2019.10.16-23.51.22:840][356]Log file closed, 10/16/19 16:51:22
